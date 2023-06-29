@@ -11,6 +11,7 @@ def main():
     name = get_name()
     greet(name)
 
-if __name__ =="__main__":
+
+if __name__ == "__main__":
     print(f"__name__ = {__name__}")  # __name__ = __main__
     main()

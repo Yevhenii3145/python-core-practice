@@ -1,4 +1,4 @@
-from py_1 import  get_name
+from py_1 import get_name
 
 
 def goodbuy(name):
@@ -9,6 +9,7 @@ def main():
     name = get_name()
     goodbuy(name)
 
-if __name__ =="__main__":
+
+if __name__ == "__main__":
     print(f"__name__ = {__name__}")
     main()
