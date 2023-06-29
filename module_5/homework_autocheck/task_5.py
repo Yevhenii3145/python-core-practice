@@ -64,16 +64,16 @@ def get_phone_numbers_for_countries(list_phones):
                 else:
                     updating_dict = {key: [phone]}
                     sortered_phones.update(updating_dict)
-            else:
-                if sortered_phones.get("UA"):
-                    values_by_key = sortered_phones.get("UA")
-                    values_by_key.append(phone)
-                    updating_dict = {"UA": values_by_key}
-                    sortered_phones.update(updating_dict)
-                    break
-                else:
-                    updating_dict = {"UA": [phone]}
-                    sortered_phones.update(updating_dict)
+
+        if sortered_phones.get("UA"):
+            values_by_key = sortered_phones.get("UA")
+            values_by_key.append(phone)
+            updating_dict = {"UA": values_by_key}
+            sortered_phones.update(updating_dict)
+            break
+        else:
+            updating_dict = {"UA": [phone]}
+            sortered_phones.update(updating_dict)
     print(sortered_phones)
     return (sortered_phones)
 
