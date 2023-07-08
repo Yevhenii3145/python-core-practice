@@ -13,7 +13,7 @@ steve:oppjM13LL9e
 
 
 def get_credentials_users(path):
-    with open(path,"rb") as fh:
+    with open(path, "rb") as fh:
         file = fh.read().decode("utf-8")
         list = file.split("\n")
         list.pop()

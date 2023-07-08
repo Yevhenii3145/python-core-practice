@@ -14,12 +14,13 @@ task = """Данные о пользователях лучше хранить �
 в виде отдельной строки "username:password" для каждого элемента словаря users_info
 """
 
-data = {'andry':'uyro18890D', 'steve':'oppjM13LL9e'}
+data = {'andry': 'uyro18890D', 'steve': 'oppjM13LL9e'}
+
 
 def save_credentials_users(path, users_info):
     with open(path, "wb") as fh:
-        for key,value in users_info.items():
-            data = "{}:{}\n".format(key,value)
+        for key, value in users_info.items():
+            data = "{}:{}\n".format(key, value)
             data = data.encode("utf-8")
             fh.write(data)
 

@@ -26,18 +26,18 @@ task = """Реализуйте функцию create_backup(path, file_name, emp
 """
 
 
-path= Path("./task_13")
+path = Path("./task_13")
 file_name = ("task_13.txt")
 
-employee = {'Michael': 'Canada', 'John':'USA', 'Liza': 'Australia'}
+employee = {'Michael': 'Canada', 'John': 'USA', 'Liza': 'Australia'}
 
 
 def create_backup(path, file_name, employee_residence):
     with open(path / file_name, "wb") as fh:
-        for key,value in employee_residence.items():
-            string = '{} {}\n'.format(key,value)
+        for key, value in employee_residence.items():
+            string = '{} {}\n'.format(key, value)
             fh.write(string.encode())
-        archive_name = shutil.make_archive("backup_folder","zip", path)
+        archive_name = shutil.make_archive("backup_folder", "zip", path)
         return archive_name
 
 
