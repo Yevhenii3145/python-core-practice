@@ -17,7 +17,7 @@ task="""Модифицируем пример предыдущей задачи.
     "license": "MIT",
     "packages": ["useful"],
 }"""
-args_dic = {
+args_dict = {
     "name": "useful",
     "version": "1",
     "description": "Very useful code",
