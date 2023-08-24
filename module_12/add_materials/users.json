@@ -1,0 +1,86 @@
+[
+    {
+        "name": "пан Ілля Стус",
+        "phone_number": "+380 08 020 80 64",
+        "email": "hanna05@example.net",
+        "address": "узвіз Лінія 49-та, буд. 58, Білгород-Дністровський, 53401",
+        "birthday": "1995-06-12"
+    },
+    {
+        "name": "Софія Піддубний",
+        "phone_number": "+380 76 935-35-80",
+        "email": "omeliankarmaliuk@example.org",
+        "address": "шосе Ветеранів праці, буд. 04, Самбір, 89657",
+        "birthday": "1977-12-10"
+    },
+    {
+        "name": "Лариса Симоненко",
+        "phone_number": "464-14-88",
+        "email": "pylypkharchenko@example.org",
+        "address": "парк Вчительська, буд. 25, Привілля, 56285",
+        "birthday": "2012-06-29"
+    },
+    {
+        "name": "Софія Балабан",
+        "phone_number": "741-01-50",
+        "email": "fderkach@example.com",
+        "address": "набережна Писарева, буд. 70, Олешки, 38498",
+        "birthday": "1996-01-16"
+    },
+    {
+        "name": "Едита Зарудний",
+        "phone_number": "068 976-27-25",
+        "email": "fbaturynets@example.net",
+        "address": "площа Професора Коровицького, буд. 5, Нетішин, 93979",
+        "birthday": "2008-06-27"
+    },
+    {
+        "name": "Любов Гавриш",
+        "phone_number": "+380 91 839 71 24",
+        "email": "piashchenko@example.com",
+        "address": "набережна Сімферопольська, буд. 671 кв. 80, Богодухів, 60912",
+        "birthday": "1990-08-21"
+    },
+    {
+        "name": "Остап Штепа",
+        "phone_number": "+380 37 132-27-90",
+        "email": "geregavioletta@example.net",
+        "address": "парк Марата 2-й, буд. 818 кв. 0, Почаїв, 06589",
+        "birthday": "2007-09-25"
+    },
+    {
+        "name": "Віра Франко",
+        "phone_number": "488 05 71",
+        "email": "batihlukian@example.com",
+        "address": "вулиця Окружна, буд. 8 кв. 30, Заставна, 88960",
+        "birthday": "2008-11-25"
+    },
+    {
+        "name": "Оксенія Скоробогатько",
+        "phone_number": "+380 04 099-12-81",
+        "email": "sofiia15@example.com",
+        "address": "провулок Керченський 1-й, буд. 4, Скалат, 67225",
+        "birthday": "2022-08-23"
+    },
+    {
+        "name": "Валентина Власенко",
+        "phone_number": "+380 56 338-19-94",
+        "email": "nazarhaivoronskyi@example.com",
+        "address": "площа Чапаєва 2-й, буд. 46 кв. 76, Здолбунів, 88166",
+        "birthday": "1986-07-24"
+    },
+    {
+        "name": "Ольга Вітрук",
+        "phone_number": "+380 91 110 95 69",
+        "email": "stepanustenko@example.com",
+        "address": "узвіз Санаторний, буд. 209 кв. 9, Євпаторія, 57991",
+        "birthday": "1991-10-13"
+    },
+    {
+        "name": "пані Лариса Кибкало",
+        "phone_number": "+380 (42) 762-49-65",
+        "email": "serhii06@example.net",
+        "address": "набережна Дачна, буд. 8 кв. 812, Новий Калинів, 45691",
+        "birthday": "2018-05-12"
+    }
+]
